@@ -3,6 +3,7 @@ html{
     background-image: url(../images/htmlbackground.jpg);
     background-size:cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 .hidden{
     display:none;
