@@ -1,0 +1,187 @@
+html{
+    background-color:rgba(30, 55, 70, 0.801);
+    background-image: url(../images/htmlbackground.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+.hidden{
+    display:none;
+}
+a {
+    color:white;
+}
+
+li {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+ul {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+/*hoofd container*/
+.container {
+    width: 50%;
+    margin:auto;
+    /*background-color:rgba(0, 191, 255, 0.377);*/
+    margin-top: 100px;
+    text-align: center;
+    line-height: 0.5rem;
+    border-radius: 5px;
+    min-width: 300px;
+}
+/**/
+
+/*1ste menu*/
+.menu1 {
+    width: 99%;
+    margin:auto;
+    margin-bottom:5px;
+    margin-top:20px;
+    background: linear-gradient(  rgba(109, 0, 45, 0.568),rgba(0, 121, 202, 0.904));
+    color:white;
+    border: 1px solid rgba(0, 109, 182, 0.521);
+    border-radius: 5px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    line-height: 0.3rem;
+}
+.pfoto{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    background-color: black;
+    margin:auto;
+    margin-top:-75px;
+    background-image: url(../images/pfoto.jpg);
+    background-size:110%;
+    border: 3px solid rgba(0, 109, 182, 0.521);
+}
+
+.menu1 h1 {
+    font-weight: bold;
+    margin-top:15px;
+    margin-bottom:25px;
+
+}
+
+.menu1 h3 {
+    font-weight: lighter;
+}
+
+.menu1 h4 {
+    font-weight: lighter;
+    font-size: 0.5rem;
+    margin-bottom:20px;
+    margin-top:0px;
+}
+
+.nav{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    display:flex;
+    justify-content: space-around;
+    border-collapse: collapse;
+}
+
+.nav li{
+    height: 30px;
+    width: 100%;
+    bottom:0;
+    margin:0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    line-height: 35px;
+    font-size:1rem;
+
+}
+#item1 {
+    border-right: 1px solid rgba(0, 109, 182, 0.521);
+
+}
+#item2 {
+    border-left: 1px solid rgba(0, 109, 182, 0.521);
+
+
+} 
+
+.nav li:hover {
+    background: linear-gradient(  rgba(0, 109, 182, 0),rgba(109, 0, 45, 0.568));
+
+}
+
+.aangeduid {
+    background: linear-gradient(  rgba(0, 109, 182, 0),rgba(109, 0, 45, 0.568));
+
+}
+
+/**/
+
+/*2de menu*/
+.menu2 {
+    width: 99%;
+    margin:auto;
+    margin-bottom:10px;
+    background: linear-gradient(  rgba(0, 121, 202, 0.904), rgba(109, 0, 45, 0.568));
+    color:white;
+    border: 1px solid rgba(0, 109, 182, 0.521);
+    border-radius: 5px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif; 
+}
+
+.overmij {
+    font-size: 0.8rem;
+    margin: 20px;
+    line-height: 17px;
+    text-align: left;
+    
+}
+.overmij h2{
+    margin-bottom:0px;
+}
+
+.overmij p{
+    margin-top:10px;
+}
+
+.opleidingen {
+    list-style-type: none;
+    padding:0;
+    
+    
+}
+.opleidingen li{
+    list-style-type: circle;
+    margin:0;
+    margin-left:17px;
+}
+.opleidingen ul{
+    margin:0;
+}
+.portfolio {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif; 
+
+}
+
+.portfolio h4 {
+    font-weight: lighter;
+}
+.grid{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:2px;
+    flex-wrap: wrap;
+}
+
+.griditem1 {
+    height: 160px;
+    width:280px;
+    background-color:rgba(109, 0, 45, 0.568);
+    margin-bottom:10px;
+    border: 1px solid rgba(0, 109, 182, 0.521);
+
+}
+/**/
+
+

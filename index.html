@@ -1,12 +1,85 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+    <title>Portfolio Dawid Dusza</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 
 <body>
-    <h1>NMD1 2017-2018</h1>
-    <h2>Dawid Dusza</h2>
-    <h3>Work in progress...</h3>
+    <div class="container">
+        <div class="menu1">
+            <div class="pfoto"></div>
+            <h1>Dawid Dusza</h1>
+            <h3>NMD1 2017-2018</h3>
+            <ul class="nav">
+                <li id="item1">Over mij</li>
+                <li id="item2">Portfolio</li>
+            </ul>
+        </div>   
+        <div class="menu2 hidden" id="container2">
+            <div class="overmij hidden" id="mij">
+                <h2>Algemeen</h2>
+                <p>Hey! Ik ben Dawid, student op Artevelde Mariakerke richting CMO (1ste jaar). Ik kom uit Polen en hier in België woon ik al ongeveer 11 jaar. In begin van mijn opleiding had ik geen kennis van HTML, CSS of Js maar na de eerste lessen vond ik webdesign al interessant en boeienden. ik zou graag daarmee iets meer willen doen.</p>
+                <h2>Vorige opleidingen</h2>
+                <ul class="opleidingen">
+                        <li><strong>Middelbare school:</strong></li>
+                        <ul>
+                            <li>Edugo Campus Glorieux</li>
+                            <li><strong>Richting:</strong> Print Media</li>
+                        </ul>
+                        
+                    <li><strong>Secundaire school:</strong></li>
+                        <ul>
+                            <li>Edugo De Brug</li>
+                            <li><strong>Richting:</strong> Grafisch Communicatie Media</li>
+                        </ul>
+                </ul>
+                <h2>Stages</h2>
+                <ul class="opleidingen">
+                    <li><strong>3Motion</strong>
+                        <ul>
+                            <li>Groot formaat printen</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="portfolio hidden" id="werkjes">
+                <h2>Portfolio</h2>
+                <h4>Eerste werkjes bij webdesign!</h4>
+                <div class="grid">
+                    <div class="griditem1"><img src="./images/opdrachten/img1.png" width="100%" height="100%"/></div>
+                    <div class="griditem1"><img src="./images/opdrachten/img2.png" width="100%" height="100%"/></div>
+                    <div class="griditem1"><img src="./images/opdrachten/img3.png" width="100%" height="100%"/></div>
+                    <div class="griditem1"><img src="./images/opdrachten/img4.png" width="100%" height="100%"/></div>
+                    <div class="griditem1"><img src="./images/opdrachten/img5.png" width="100%" height="100%"/></div>
+                    <div class="griditem1"><img src="./images/opdrachten/img6.png" width="100%" height="100%"/></div>
+                    <div class="griditem1"><img src="./images/opdrachten/img7.png" width="100%" height="100%"/></div>
+                    <div class="griditem1"><img src="./images/opdrachten/img8.png" width="100%" height="100%"/></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+    document.getElementById('item1').addEventListener('click', function(){
+        document.getElementById('container2').className = 'menu2';
+        document.getElementById('mij').className = 'overmij';
+        document.getElementById('werkjes').className = 'hidden';
+        document.getElementById('item1').className = 'aangeduid';
+        document.getElementById('item2').className = '';
+    });
+
+    document.getElementById('item2').addEventListener('click', function(){
+        document.getElementById('container2').className = 'menu2';
+        document.getElementById('mij').className = 'overmij hidden';
+        document.getElementById('werkjes').className = 'portfolio';
+        document.getElementById('item2').className = 'aangeduid';
+        document.getElementById('item1').className = '';
+    });
+    </script>
+    
 </body>
 </html>
