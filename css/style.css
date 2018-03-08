@@ -1,7 +1,7 @@
 html{
     background-color:rgba(30, 55, 70, 0.801);
     background-image: url(../images/htmlbackground.jpg);
-    background-size:contain;
+    background-size:cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
