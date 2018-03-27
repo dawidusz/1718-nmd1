@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet"><script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </head>
 
 <body>
@@ -12,15 +13,16 @@
         <div class="menu1">
             <div class="pfoto"></div>
             <h1>Dawid Dusza</h1>
-            <h3>NMD1 2017-2018</h3>
+            <h3>NMD1 2017-2018 </h3>
             <ul class="nav">
-                <li id="item1">Over mij</li>
+                <li id="item1">Over mij </li>
                 <li id="item2">Portfolio</li>
             </ul>
         </div>   
         <div class="menu2 hidden" id="container2">
             <div class="overmij hidden" id="mij">
-                <h2>Algemeen</h2>
+                <h2>Algemeen</i>
+                </h2>
                 <p>Hey! Ik ben Dawid, student op Artevelde Mariakerke richting CMO (1ste jaar). Ik kom uit Polen en hier in België woon ik al ongeveer 11 jaar. In begin van mijn opleiding had ik geen kennis van HTML, CSS of Js maar na de eerste lessen vond ik webdesign al interessant en boeienden. ik zou graag daarmee iets meer willen doen.</p>
                 <h2>Vorige opleidingen</h2>
                 <ul class="opleidingen">
@@ -48,20 +50,20 @@
             <div class="portfolio hidden" id="werkjes">
                 <h2>Portfolio</h2>
                 <h4>Eerste werkjes bij webdesign!</h4>
-                <div class="grid">
-                    <div class="griditem1"><img src="./images/opdrachten/img1.png" width="100%" height="100%"/></div>
-                    <div class="griditem1"><img src="./images/opdrachten/img2.png" width="100%" height="100%"/></div>
-                    <div class="griditem1"><img src="./images/opdrachten/img3.png" width="100%" height="100%"/></div>
-                    <div class="griditem1"><img src="./images/opdrachten/img4.png" width="100%" height="100%"/></div>
-                    <div class="griditem1"><img src="./images/opdrachten/img5.png" width="100%" height="100%"/></div>
-                    <div class="griditem1"><img src="./images/opdrachten/img6.png" width="100%" height="100%"/></div>
-                    <div class="griditem1"><img src="./images/opdrachten/img7.png" width="100%" height="100%"/></div>
-                    <div class="griditem1"><img src="./images/opdrachten/img8.png" width="100%" height="100%"/></div>
-
+                <div class="grid" id="gridfotos">
+                
+                    <div class="griditem1"><img id="myImg" src="./images/opdrachten/img1.png" width="100%" height="100%"/></div>
+                    <div class="griditem1"><img id="myImg2" src="./images/opdrachten/img2.png" width="100%" height="100%"/></div>
+                    <div class="griditem1"><img id="myImg3" src="./images/opdrachten/img3.png" width="100%" height="100%"/></div>
+                    <div class="griditem1"><img id="myImg4" src="./images/opdrachten/img4.png" width="100%" height="100%"/></div>
+                    <div class="griditem1"><img id="myImg5" src="./images/opdrachten/img5.png" width="100%" height="100%"/></div>
+                    <div class="griditem1"><img id="myImg6" src="./images/opdrachten/img6.png" width="100%" height="100%"/></div>
+                    <div class="griditem1"><img id="myImg7" src="./images/opdrachten/img7.png" width="100%" height="100%"/></div>
+                    <div class="griditem1"><img id="myImg8" src="./images/opdrachten/img8.png" width="100%" height="100%"/></div>
+            
                 </div>
             </div>
         </div>
-    </div>
     
     <script>
     document.getElementById('item1').addEventListener('click', function(){
@@ -79,7 +81,6 @@
         document.getElementById('item2').className = 'aangeduid';
         document.getElementById('item1').className = '';
     });
-    </script>
-    
+    <script defer src="/static/fontawesome/fontawesome-all.js"></script>
 </body>
 </html>
